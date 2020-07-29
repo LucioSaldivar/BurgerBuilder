@@ -1,0 +1,17 @@
+.Burger {
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    /* by limiting the hight and addin scroll it keeps from over filing the screen and going past what the container can hold */
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media ( min-width:500px) and (min-height:400px) {
+    .Burger{
+        width: 350px;
+        height: 400px;
+    }
+}
